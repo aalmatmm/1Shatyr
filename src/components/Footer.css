@@ -1,0 +1,24 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #002b5b; /* Новый фон: темно-синий */
+  color: #f0f0f0; /* Новый цвет текста: светло-серый */
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.footer-container:hover {
+  background-color: #004080; /* Более светлый синий при наведении */
+}
+
+.bold {
+  color: rgba(255, 223, 127, 0.9); /* Новый цвет: светло-золотистый */
+  margin-left: 70px;
+  font-weight: bold; /* Уточняет стиль */
+  transition: color 0.3s ease;
+}
+
+.bold:hover {
+  color: #ffcc66; /* Ярче при наведении */
+}
